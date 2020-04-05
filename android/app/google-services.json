@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "245983166721",
+    "firebase_url": "https://meals-time-a125f.firebaseio.com",
+    "project_id": "meals-time-a125f",
+    "storage_bucket": "meals-time-a125f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245983166721:android:f09f9be79735e1d4dcdb00",
+        "android_client_info": {
+          "package_name": "com.example.meal_time"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245983166721-ao366f1eben117ipp2uh0u04jlddok5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSR9MvsnUNK5c9hDnO52KHAPwmVUdShdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245983166721-ao366f1eben117ipp2uh0u04jlddok5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
