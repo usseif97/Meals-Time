@@ -1,8 +1,4 @@
-import 'dart:convert';
-import 'package:flutter/widgets.dart';
-import 'package:http/http.dart' as http;
 import 'package:firebase_auth/firebase_auth.dart';
-import '../models/http_exception.dart';
 
 
 class Auth {

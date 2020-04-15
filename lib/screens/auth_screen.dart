@@ -1,9 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'dart:convert';
-import 'package:http/http.dart' as http;
 import 'package:meal_time/models/http_exception.dart';
-import 'package:provider/provider.dart';
 import '../models/auth.dart';
 
 enum AuthMode { Signup, Login }
@@ -136,7 +133,7 @@ class _AuthCardState extends State<AuthCard> {
   }
 
   Future<void> _submit() async {
-    const url = 'https://meals-time-a125f.firebaseio.com/meals.json';
+    /*const url = 'https://meals-time-a125f.firebaseio.com/meals.json';
     http.post(
       url,
       body: json.encode(
@@ -145,7 +142,7 @@ class _AuthCardState extends State<AuthCard> {
           'description': 'ndnd',
         },
       ),
-    );
+    );*/
 
     if (!_formKey.currentState.validate()) {
       // Invalid!
@@ -172,7 +169,7 @@ class _AuthCardState extends State<AuthCard> {
         );*/
         Auth().signup(_authData['email'],  _authData['password']);
       }
-      Navigator.of(context).pushReplacementNamed('/categories');
+      Navigator.of(context).pushReplacementNamed('/tabs');
     } on HttpException catch (error) {
       var errorMessage = 'Authentication failed';
       if (error.toString().contains('EMAIL_EXISTS')) {
