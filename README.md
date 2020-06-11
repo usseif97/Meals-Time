@@ -2,4 +2,4 @@
 
 A new Flutter project.
 
-it's Android App used for discoveing new meals & location of Restaurants
+it's Android App used for discoveing new categories of meals with their ingredients and steps.
